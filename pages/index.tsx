@@ -83,6 +83,10 @@ export default function Home() {
         setLoading(false);
       }
       if (data.type && data.type === 'sources') {
+        // in each data.source .content, replace \n\n+ with \n\n
+        data.sources.forEach((source: DocumentChunk) => {
+          source.content = source.content?.replace(/(\n){2,}/g, '\n\n')
+        })
         setChunks(data.sources)
         socket.close();
       }
