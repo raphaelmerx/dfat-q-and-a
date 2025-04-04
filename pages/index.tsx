@@ -231,7 +231,7 @@ export default function Home() {
                             <IconExternalLink />
                           </a>
                         </div>
-                        <div className="mt-4">{chunk.content}</div>
+                        <div className="mt-4 whitespace-pre-line">{chunk.content}</div>
                       </div>
                     </div>
                   ))}
