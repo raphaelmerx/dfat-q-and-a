@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandLinkedin, IconBrandTwitter, IconExternalLink } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandLinkedin, IconExternalLink } from "@tabler/icons-react";
 import Image from "next/image";
 import { FC } from "react";
 import king from "../public/king.png";
@@ -12,15 +12,6 @@ export const Navbar: FC = () => {
         </div>
       </div>
       <div className="flex space-x-4 hidden sm:flex">
-        <a
-          className="flex items-center hover:opacity-50"
-          href="https://twitter.com/raphaelmerx"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconBrandTwitter size={24} />
-        </a>
-
         <a
           className="flex items-center hover:opacity-50"
           href="https://github.com/raphaelmerx"
