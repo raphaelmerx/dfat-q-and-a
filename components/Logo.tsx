@@ -16,7 +16,7 @@ export const Logo: FC = () => {
         height={50}
       />
       <div className="font-semibold text-2xl">
-        Saveh.ai
+        <a href="/">Saveh.ai</a>
       </div>
     </div>
   );

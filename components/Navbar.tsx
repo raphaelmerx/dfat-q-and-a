@@ -9,6 +9,12 @@ export const Navbar: FC = () => {
       <Logo />
       <div className="flex space-x-4 hidden sm:flex">
         <a
+          className={`flex items-center hover:opacity-50 mr-2 text-sm ${
+            typeof window !== 'undefined' && window.location.pathname === '/about' ? 'underline' : ''
+          }`}
+          href="/about"
+        >About</a>
+        <a
           className="flex items-center hover:opacity-50"
           href="https://github.com/raphaelmerx"
           target="_blank"
