@@ -11,6 +11,7 @@ import brain from "../public/brain.png";
 import pencil from "../public/pencil.png";
 import lock from "../public/lock.png";
 import hammer from "../public/hammer.png";
+import Link from "next/link";
 
 
 const AboutHeader = ({ text }: { text: string }) => {
@@ -58,8 +59,8 @@ export default function About() {
                 development decisions — starting with Australian aid.
               </p>
               <p className="text-lg">
-                Grounded in a powerful blend of artificial intelligence and real-world evidence,
-                Saveh.ai helps policymakers, designers, and implementers uncover lessons,
+                Grounded in a blend of artificial intelligence and real-world evidence,
+                Saveh.ai helps policymakers, program designers, and implementers uncover lessons,
                 make sense of complexity, and apply insight with confidence.
               </p>
             </div>
@@ -69,7 +70,7 @@ export default function About() {
 
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai has been trained on thousands of public DFAT documents, including:
+                Saveh.ai has been trained on ~500 public DFAT documents for years 2022-2025, including:
               </p>
               <ul className="list-disc pl-5 mb-4">
                 <li>Program design documents</li>
@@ -86,12 +87,12 @@ export default function About() {
             <AboutHeader text="How it Works" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai uses a powerful AI method called Retrieval-Augmented Generation (RAG). This approach gives you the best of both worlds: AI speed and clarity, combined with real, verifiable sources.
+                Saveh.ai uses an AI method called Retrieval-Augmented Generation (RAG). This approach gives you the best of both worlds: AI speed and clarity, combined with real, verifiable sources.
               </p>
               <p className="text-lg mb-4">Here&apos;s how it works:</p>
               <ol className="list-decimal pl-5 mb-4">
                 <li>Ask a question. e.g., &quot;What lessons have emerged about teacher training in the Pacific?&quot;</li>
-                <li>The AI searches real reports. It scans thousands of DFAT documents to retrieve the most relevant excerpts.</li>
+                <li>The AI searches real DFAT reports to retrieve the most relevant excerpts.</li>
                 <li>It generates a response — grounded in evidence. The answer is written using only the information it retrieved — not from the open internet.</li>
                 <li>It shows its sources. Every insight is linked to its original report, so you can verify and dig deeper.</li>
               </ol>
@@ -101,7 +102,7 @@ export default function About() {
             <AboutHeader text="Why This Matters" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Most AI tools sound smart — but they often make things up. That&apos;s called a &quot;hallucination,&quot; and it&apos;s risky when you&apos;re working with public policy or program design.
+                Most AI tools sound smart — but they often make things up. That&apos;s called &quot;hallucination,&quot; and it&apos;s risky when you&apos;re working with public policy or program design.
               </p>
               <p className="text-lg mb-4">
                 Saveh.ai reduces this risk by:
@@ -121,7 +122,8 @@ export default function About() {
                 Saveh.ai is built using publicly available documents published by the Australian Government&apos;s Department of Foreign Affairs and Trade (DFAT). These materials include program design documents, mid-term reviews, evaluations, and learning reports. They are made available under DFAT&apos;s Creative Commons Attribution 4.0 International Licence (CC BY 4.0 AU), which allows for use and adaptation of content with appropriate credit.
               </p>
               <p className="text-lg">
-                All DFAT-sourced content is attributed as: Department of Foreign Affairs and Trade website – www.dfat.gov.au
+                All DFAT-sourced content is attributed to the Department of Foreign Affairs and Trade website –
+                <Link href={"https://www.dfat.gov.au/about-us/about-this-website/copyright" } className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer"> www.dfat.gov.au</Link>. 
                 Saveh.ai respects all licensing conditions and is committed to transparent, responsible use of publicly available data to support better decision-making in development.
               </p>
             </div>

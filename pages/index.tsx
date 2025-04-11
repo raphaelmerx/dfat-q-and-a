@@ -36,15 +36,6 @@ export default function Home() {
 
   const [query, setQuery] = useState<string>("");
   const [chunks, setChunks] = useState<DocumentChunk[]>([]);
-//   const [answer, setAnswer] = useState<string>(`Papua New Guinea (PNG) has several governance programs aimed at improving transparency, accountability, and development. Some of these programs include:
-
-// 1. **Papua New Guinea–Australia Governance Partnership (PAGP)**: This partnership includes programs such as Economic Governance and Inclusive Growth (EGIG), Public Sector Leadership and Reform (PSLR), and the Institutional Partnerships Program (IPP). These initiatives focus on addressing development opportunities, promoting gender issues, and providing operational support to PNG stakeholders and the Australian High Commission.
-
-// 2. **Building Community Engagement in PNG Program (BCEP)**: This program focuses on increasing accountability and civic participation, combating corruption, and leveraging PNG's youthful population and improving internet connectivity for political engagement.
-
-// 3. **Australia-PNG Economic Development Partnership**: This partnership supports various sectors, including governance, by promoting good governance, economic empowerment, and civic participation as outlined in PNG’s Medium Term Development Plan III (MTDP III).
-
-// 4. **Church Partnership Program (CPP)**: Supported by DFAT, this program works with PNG’s churches to enhance their reach and legitimacy in promoting accountability and addressing social issues.`);
   const [answer, setAnswer] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [showExamples, setShowExamples] = useState<boolean>(true);
@@ -175,7 +166,7 @@ export default function Home() {
                   ref={inputRef}
                   className="h-12 w-full rounded-full border border-zinc-600 pr-12 pl-11 focus:border-zinc-800 focus:outline-none focus:ring-1 focus:ring-zinc-800 sm:h-16 sm:py-2 sm:pr-16 sm:pl-16 sm:text-lg"
                   type="text"
-                  placeholder="What is JSS4D?"
+                  placeholder="How does DFAT promote donor coordination in the Pacific?"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={handleKeyDown}
