@@ -175,7 +175,7 @@ export default function Home() {
                 <button>
                   <IconArrowRight
                     onClick={() => handleAnswer(query)}
-                    className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10 text-white"
+                    className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-[#47CB86] p-1 hover:cursor-pointer hover:bg-[#3ab974] sm:right-3 sm:top-3 sm:h-10 sm:w-10 text-white"
                   />
                 </button>
               </div>
@@ -245,8 +245,8 @@ export default function Home() {
               </div>
             )}
           </div>
-        </div>
         <Footer />
+        </div>
       </div>
     </>
   );
