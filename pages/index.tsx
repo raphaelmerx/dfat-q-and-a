@@ -150,7 +150,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="/favicon.ico"
+          href="/favicon.png"
         />
       </Head>
 
