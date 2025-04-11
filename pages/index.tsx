@@ -156,9 +156,9 @@ export default function Home() {
 
       <div className="flex flex-col h-screen">
         <Navbar />
-        <div className="flex-1 overflow-auto">
+        <div className="flex-1">
           <TagLine />
-          <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center px-3 pt-4">
+            <div className="mx-auto flex w-full max-w-[750px] flex-col items-center px-3 pt-4 min-h-[700px]">
               <div className="relative w-full mt-4">
                 <IconSearch className="absolute top-3 w-10 left-1 h-6 rounded-full opacity-50 sm:left-3 sm:top-4 sm:h-8" />
 
@@ -187,9 +187,9 @@ export default function Home() {
                 </div>
             )} */}
             {loading ? (
-              <div className="mt-6 w-full">
+              <div className="mt-10 w-full">
                   <>
-                    <div className="font-bold text-2xl">Answer</div>
+                    <div className="font-semibold text-lg">Answer</div>
                     <div className="animate-pulse mt-2">
                       <div className="h-4 bg-gray-300 rounded"></div>
                       <div className="h-4 bg-gray-300 rounded mt-2"></div>
@@ -201,7 +201,7 @@ export default function Home() {
 
                 {chunks.length ? (
                   <>
-                    <div className="font-bold text-2xl mt-6">Sources</div>
+                    <div className="font-semibold text-lg mt-6">Sources</div>
                     <div className="animate-pulse mt-2">
                       <div className="h-4 bg-gray-300 rounded"></div>
                       <div className="h-4 bg-gray-300 rounded mt-2"></div>
@@ -212,16 +212,17 @@ export default function Home() {
                   </>) : ''}
               </div>
             ) : (
-              <div className="mt-6 w-full">
-                {answer.length ? (<div className="font-bold text-2xl mb-2">Answer</div>) : ''}
+              <div className="mt-10 w-full">
+                {answer.length ? (<div className="font-semibold text-lg mb-2">Answer</div>) : ''}
                 <Answer text={answer} />
 
                 <div className="mt-6 mb-16">
-                {chunks.length ? (<div className="font-bold text-2xl">Sources</div>) : ''}
+                {chunks.length ? (<div className="font-semibold text-lg">Sources</div>) : ''}
 
                   {chunks.map((chunk, index) => (
                     <div key={index}>
-                      <div className="mt-4 border border-zinc-600 rounded-lg p-4">
+    {/* <div className={`${styles.answer} ${text ? 'bg-[#F8F8FA]' : ''} rounded-3xl p-8 -ml-8 -mr-8`}> */}
+                      <div className="mt-4 rounded-3xl bg-[#F8F8FA] p-8 -ml-8 -mr-8">
                         <div className="flex justify-between">
                           <div className="flex items-center">
                             <div>
