@@ -1,5 +1,6 @@
 import { IconBrandGithub, IconBrandLinkedin, IconExternalLink } from "@tabler/icons-react";
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 import { Logo } from "./Logo";
 
@@ -8,12 +9,12 @@ export const Navbar: FC = () => {
     <div className="flex h-[60px] py-2 px-4 sm:px-8 items-center sm:justify-between justify-center">
       <Logo />
       <div className="flex space-x-4 hidden sm:flex">
-        <a
+        <Link
           className={`flex items-center hover:opacity-50 mr-2 text-sm ${
             typeof window !== 'undefined' && window.location.pathname === '/about' ? 'underline' : ''
           }`}
           href="/about"
-        >About</a>
+        >About</Link>
         <a
           className="flex items-center hover:opacity-50"
           href="https://github.com/raphaelmerx"

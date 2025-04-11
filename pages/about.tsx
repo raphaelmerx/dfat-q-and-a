@@ -88,9 +88,9 @@ export default function About() {
               <p className="text-lg mb-4">
                 Saveh.ai uses a powerful AI method called Retrieval-Augmented Generation (RAG). This approach gives you the best of both worlds: AI speed and clarity, combined with real, verifiable sources.
               </p>
-              <p className="text-lg mb-4">Here's how it works:</p>
+              <p className="text-lg mb-4">Here&apos;s how it works:</p>
               <ol className="list-decimal pl-5 mb-4">
-                <li>Ask a question. e.g., "What lessons have emerged about teacher training in the Pacific?"</li>
+                <li>Ask a question. e.g., &quot;What lessons have emerged about teacher training in the Pacific?&quot;</li>
                 <li>The AI searches real reports. It scans thousands of DFAT documents to retrieve the most relevant excerpts.</li>
                 <li>It generates a response — grounded in evidence. The answer is written using only the information it retrieved — not from the open internet.</li>
                 <li>It shows its sources. Every insight is linked to its original report, so you can verify and dig deeper.</li>
@@ -101,7 +101,7 @@ export default function About() {
             <AboutHeader text="Why This Matters" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Most AI tools sound smart — but they often make things up. That's called a "hallucination," and it's risky when you're working with public policy or program design.
+                Most AI tools sound smart — but they often make things up. That&apos;s called a &quot;hallucination,&quot; and it&apos;s risky when you&apos;re working with public policy or program design.
               </p>
               <p className="text-lg mb-4">
                 Saveh.ai reduces this risk by:
@@ -118,7 +118,7 @@ export default function About() {
             <AboutHeader text="Responsibly Sourced. Openly Shared" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai is built using publicly available documents published by the Australian Government's Department of Foreign Affairs and Trade (DFAT). These materials include program design documents, mid-term reviews, evaluations, and learning reports. They are made available under DFAT's Creative Commons Attribution 4.0 International Licence (CC BY 4.0 AU), which allows for use and adaptation of content with appropriate credit.
+                Saveh.ai is built using publicly available documents published by the Australian Government&apos;s Department of Foreign Affairs and Trade (DFAT). These materials include program design documents, mid-term reviews, evaluations, and learning reports. They are made available under DFAT&apos;s Creative Commons Attribution 4.0 International Licence (CC BY 4.0 AU), which allows for use and adaptation of content with appropriate credit.
               </p>
               <p className="text-lg">
                 All DFAT-sourced content is attributed as: Department of Foreign Affairs and Trade website – www.dfat.gov.au
@@ -130,10 +130,10 @@ export default function About() {
             <AboutHeader text="Designed for the Work You Do" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Whether you're preparing a strategy, reviewing a portfolio, writing a tender, or simply looking for lessons learned — Saveh.ai helps you luksave: to recognise, reflect, and respond with clarity.
+                Whether you&apos;re preparing a strategy, reviewing a portfolio, writing a tender, or simply looking for lessons learned — Saveh.ai helps you luksave: to recognise, reflect, and respond with clarity.
               </p>
               <p className="text-lg">
-                Saveh.ai is more than a search tool. It's your evidence-based copilot for better decisions in international development.
+                Saveh.ai is more than a search tool. It&apos;s your evidence-based copilot for better decisions in international development.
               </p>
             </div>
           </div>

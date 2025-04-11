@@ -1,5 +1,6 @@
 import { IconBrandGithub, IconBrandLinkedin, IconExternalLink } from "@tabler/icons-react";
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 import logo from "../public/logo.png";
 
@@ -16,7 +17,7 @@ export const Logo: FC = () => {
         height={50}
       />
       <div className="font-semibold text-2xl">
-        <a href="/">Saveh.ai</a>
+        <Link href="/">Saveh.ai</Link>
       </div>
     </div>
   );
