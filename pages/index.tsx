@@ -1,6 +1,7 @@
 import { Answer } from "@/components/Answer/Answer";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
+import { TagLine } from "@/components/Tagline";
 import { DocumentChunk } from "@/types";
 import { getImage } from "@/utils/images";
 import { IconArrowRight, IconExternalLink, IconSearch } from "@tabler/icons-react";
@@ -138,7 +139,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DFAT Q&A</title>
+        <title>Saveh.ai</title>
         <meta
           name="description"
           content={`AI-powered Q&A backed by DFAT reports`}
@@ -156,6 +157,7 @@ export default function Home() {
       <div className="flex flex-col h-screen">
         <Navbar />
         <div className="flex-1 overflow-auto">
+          <TagLine />
           <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center px-3 pt-4">
               <div className="relative w-full mt-4">
                 <IconSearch className="absolute top-3 w-10 left-1 h-6 rounded-full opacity-50 sm:left-3 sm:top-4 sm:h-8" />
@@ -178,12 +180,12 @@ export default function Home() {
                 </button>
               </div>
 
-            {showExamples && (
+            {/* {showExamples && (
                 <div className="w-full">
                     <ExampleChip text="What is the budget of the PHD program in Timor-Leste?" onClick={onClickChip} />
                     <ExampleChip text="Programs transitioned to GoTL?" onClick={onClickChip} />
                 </div>
-            )}
+            )} */}
             {loading ? (
               <div className="mt-6 w-full">
                   <>
