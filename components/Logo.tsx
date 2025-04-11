@@ -5,9 +5,6 @@ import { FC } from "react";
 import logo from "../public/logo.png";
 
 export const Logo: FC = () => {
-  // a flex div, aligned horizontally, with 
-  // - the logo.png to the left
-  // - the text Saveh.ai in bold to the right
   return (
     <div className="flex items-center">
       <Image
@@ -17,7 +14,7 @@ export const Logo: FC = () => {
         height={50}
       />
       <div className="font-semibold text-2xl">
-        <Link href="/">Saveh.ai</Link>
+        <Link href="/">SavehAI</Link>
       </div>
     </div>
   );

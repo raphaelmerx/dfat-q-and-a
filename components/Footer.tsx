@@ -18,7 +18,7 @@ export const Footer: FC = () => {
           />
       </div>
       <div className="text-xs font-normal mt-2 max-w-[500px] text-gray-500 mb-5">
-        Saveh.ai is a tool designed to support development insights and decision-making. While every effort is made to ensure accuracy, outputs are generated using AI and should be interpreted alongside expert judgement and contextual knowledge.
+        SavehAI is a tool designed to support development insights and decision-making. While every effort is made to ensure accuracy, outputs are generated using AI and should be interpreted alongside expert judgement and contextual knowledge.
       </div>
     </div>
   );

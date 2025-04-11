@@ -36,8 +36,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Saveh.ai</title>
-        <meta name="description" content="About Saveh.ai - AI-powered insights tool for Australian aid" />
+        <title>About SavehAI</title>
+        <meta name="description" content="About SavehAI - AI-powered insights tool for Australian aid" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -51,16 +51,16 @@ export default function About() {
             </div>
 
             <AboutIcon src={compass} alt="Compass" />
-            <AboutHeader text="About Saveh.ai" />
+            <AboutHeader text="About SavehAI" />
 
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai is an AI-powered insights tool built to support smarter, more effective
+                SavehAI is an AI-powered insights tool built to support smarter, more effective
                 development decisions — starting with Australian aid.
               </p>
               <p className="text-lg">
                 Grounded in a blend of artificial intelligence and real-world evidence,
-                Saveh.ai helps policymakers, program designers, and implementers uncover lessons,
+                SavehAI helps policymakers, program designers, and implementers uncover lessons,
                 make sense of complexity, and apply insight with confidence.
               </p>
             </div>
@@ -70,7 +70,7 @@ export default function About() {
 
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai has been trained on ~500 public DFAT documents for years 2022-2025, including:
+                SavehAI has been trained on ~500 public DFAT documents for years 2022-2025, including:
               </p>
               <ul className="list-disc pl-5 mb-4">
                 <li>Program design documents</li>
@@ -87,7 +87,7 @@ export default function About() {
             <AboutHeader text="How it Works" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai uses an AI method called Retrieval-Augmented Generation (RAG). This approach gives you the best of both worlds: AI speed and clarity, combined with real, verifiable sources.
+                SavehAI uses an AI method called Retrieval-Augmented Generation (RAG). This approach gives you the best of both worlds: AI speed and clarity, combined with real, verifiable sources.
               </p>
               <p className="text-lg mb-4">Here&apos;s how it works:</p>
               <ol className="list-decimal pl-5 mb-4">
@@ -105,7 +105,7 @@ export default function About() {
                 Most AI tools sound smart — but they often make things up. That&apos;s called &quot;hallucination,&quot; and it&apos;s risky when you&apos;re working with public policy or program design.
               </p>
               <p className="text-lg mb-4">
-                Saveh.ai reduces this risk by:
+                SavehAI reduces this risk by:
               </p>
               <ul className="list-disc pl-5 mb-4">
                 <li>Only using trusted, DFAT-sourced documents</li>
@@ -119,12 +119,12 @@ export default function About() {
             <AboutHeader text="Responsibly Sourced. Openly Shared" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Saveh.ai is built using publicly available documents published by the Australian Government&apos;s Department of Foreign Affairs and Trade (DFAT). These materials include program design documents, mid-term reviews, evaluations, and learning reports. They are made available under DFAT&apos;s Creative Commons Attribution 4.0 International Licence (CC BY 4.0 AU), which allows for use and adaptation of content with appropriate credit.
+                SavehAI is built using publicly available documents published by the Australian Government&apos;s Department of Foreign Affairs and Trade (DFAT). These materials include program design documents, mid-term reviews, evaluations, and learning reports. They are made available under DFAT&apos;s Creative Commons Attribution 4.0 International Licence (CC BY 4.0 AU), which allows for use and adaptation of content with appropriate credit.
               </p>
               <p className="text-lg">
                 All DFAT-sourced content is attributed to the Department of Foreign Affairs and Trade website –
                 <Link href={"https://www.dfat.gov.au/about-us/about-this-website/copyright" } className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer"> www.dfat.gov.au</Link>. 
-                Saveh.ai respects all licensing conditions and is committed to transparent, responsible use of publicly available data to support better decision-making in development.
+                SavehAI respects all licensing conditions and is committed to transparent, responsible use of publicly available data to support better decision-making in development.
               </p>
             </div>
 
@@ -132,10 +132,10 @@ export default function About() {
             <AboutHeader text="Designed for the Work You Do" />
             <div className="prose max-w-none">
               <p className="text-lg mb-4">
-                Whether you&apos;re preparing a strategy, reviewing a portfolio, writing a tender, or simply looking for lessons learned — Saveh.ai helps you luksave: to recognise, reflect, and respond with clarity.
+                Whether you&apos;re preparing a strategy, reviewing a portfolio, writing a tender, or simply looking for lessons learned — SavehAI helps you luksave: to recognise, reflect, and respond with clarity.
               </p>
               <p className="text-lg">
-                Saveh.ai is more than a search tool. It&apos;s your evidence-based copilot for better decisions in international development.
+                SavehAI is more than a search tool. It&apos;s your evidence-based copilot for better decisions in international development.
               </p>
             </div>
           </div>

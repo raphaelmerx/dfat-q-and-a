@@ -139,7 +139,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Saveh.ai</title>
+        <title>SavehAI</title>
         <meta
           name="description"
           content={`AI-powered Q&A backed by DFAT reports`}
