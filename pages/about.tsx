@@ -53,7 +53,7 @@ export default function About() {
             <AboutIcon src={compass} alt="Compass" />
             <AboutHeader text="About SavehAI" />
 
-            <div className="prose max-w-none">
+            <div className="prose max-w-none text-gray-500">
               <p className="text-lg mb-4">
                 SavehAI is an AI-powered insights tool built to support smarter, more effective
                 development decisions — starting with Australian aid.
@@ -68,7 +68,7 @@ export default function About() {
             <AboutIcon src={hammer} alt="Hammer" />
             <AboutHeader text="Built for Development Effectiveness" />
 
-            <div className="prose max-w-none">
+            <div className="prose max-w-none text-gray-500">
               <p className="text-lg mb-4">
                 SavehAI has been trained on ~500 public DFAT documents for years 2022-2025, including:
               </p>
@@ -85,7 +85,7 @@ export default function About() {
 
             <AboutIcon src={gears} alt="Gears" />
             <AboutHeader text="How it Works" />
-            <div className="prose max-w-none">
+            <div className="prose max-w-none text-gray-500">
               <p className="text-lg mb-4">
                 SavehAI uses an AI method called Retrieval-Augmented Generation (RAG). This approach gives you the best of both worlds: AI speed and clarity, combined with real, verifiable sources.
               </p>
@@ -100,7 +100,7 @@ export default function About() {
 
             <AboutIcon src={brain} alt="Brain" />
             <AboutHeader text="Why This Matters" />
-            <div className="prose max-w-none">
+            <div className="prose max-w-none text-gray-500">
               <p className="text-lg mb-4">
                 Most AI tools sound smart — but they often make things up. That&apos;s called &quot;hallucination,&quot; and it&apos;s risky when you&apos;re working with public policy or program design.
               </p>
@@ -117,7 +117,7 @@ export default function About() {
 
             <AboutIcon src={lock} alt="Lock" />
             <AboutHeader text="Responsibly Sourced. Openly Shared" />
-            <div className="prose max-w-none">
+            <div className="prose max-w-none text-gray-500">
               <p className="text-lg mb-4">
                 SavehAI is built using publicly available documents published by the Australian Government&apos;s Department of Foreign Affairs and Trade (DFAT). These materials include program design documents, mid-term reviews, evaluations, and learning reports. They are made available under DFAT&apos;s Creative Commons Attribution 4.0 International Licence (CC BY 4.0 AU), which allows for use and adaptation of content with appropriate credit.
               </p>
@@ -130,7 +130,7 @@ export default function About() {
 
             <AboutIcon src={pencil} alt="Pencil" />
             <AboutHeader text="Designed for the Work You Do" />
-            <div className="prose max-w-none">
+            <div className="prose max-w-none text-gray-500">
               <p className="text-lg mb-4">
                 Whether you&apos;re preparing a strategy, reviewing a portfolio, writing a tender, or simply looking for lessons learned — SavehAI helps you luksave: to recognise, reflect, and respond with clarity.
               </p>
