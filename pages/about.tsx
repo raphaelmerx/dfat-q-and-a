@@ -79,7 +79,7 @@ export default function About() {
                 <li>Learning briefs and reports</li>
               </ul>
               <p className="text-lg">
-                It brings this hard-earned knowledge to your fingertips — surfacing patterns, lessons, and insights that are often buried in lengthy PDFs.
+                It brings this hard-earned knowledge to your fingertips — surfacing patterns, lessons, and insights that are often buried in lengthy PDFs. We will make Saveh smarter over time by incorporating more publicly available materials.
               </p>
             </div>
 
