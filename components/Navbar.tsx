@@ -17,15 +17,7 @@ export const Navbar: FC = () => {
         >About</Link>
         <a
           className="flex items-center hover:opacity-50"
-          href="https://github.com/raphaelmerx"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconBrandGithub size={24} />
-        </a>
-        <a
-          className="flex items-center hover:opacity-50"
-          href="https://www.linkedin.com/in/raphaelmerx/"
+          href="https://linkedin.com/company/catalpa-international/"
           target="_blank"
           rel="noreferrer"
         >
@@ -33,7 +25,7 @@ export const Navbar: FC = () => {
         </a>
         <a
           className="flex items-center hover:opacity-50"
-          href="https://www.rapha.dev/blog/dfat-qa"
+          href="https://catalpa.io/"
           target="_blank"
           rel="noreferrer"
         >
